@@ -15,8 +15,9 @@ public class TestNumberBox {
 
     //print number x times based on columns requested
     public static void getColumns(int columnNum, int number) {
+        //both of these ended up getting pretty complicated as I adjusted the code to get what I initially had in mind, which is needlessly complicated, but I think looks pretty cool
         for (int count = number + 1; count < columnNum; count += 1) {
-            System.out.print(count + " ");
+            System.out.print(count + " "); 
         }
     }
 
